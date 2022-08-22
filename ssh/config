@@ -1,0 +1,4 @@
+
+Host *.fedoraproject.org fedorapeople.org *.pagure.io pagure.io *.fedorainfracloud.org
+    IdentityFile ~/.ssh/id_rsa_fedora
+
