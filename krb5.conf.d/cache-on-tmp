@@ -1,0 +1,6 @@
+# Configure fkinit to use local cache instead of the kernel keyring KCM:,
+# which doesn't work inside a container.
+# (see also: https://github.com/containers/toolbox/issues/235)
+
+[libdefaults]
+    default_ccache_name = FILE:/tmp/krb5.ccache
