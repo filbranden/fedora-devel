@@ -17,4 +17,5 @@ RUN chown -R filbranden:filbranden /home/filbranden/
 # Entry point, run as filbranden
 USER filbranden
 WORKDIR /home/filbranden
+CMD ["/bin/bash", "-l"]
 
