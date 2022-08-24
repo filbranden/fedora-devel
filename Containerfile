@@ -1,4 +1,4 @@
-FROM fedora:latest
+FROM fedora:rawhide
 
 # Install interesting packages
 RUN sed -i 's/^tsflags=nodocs/#&/' /etc/dnf/dnf.conf
